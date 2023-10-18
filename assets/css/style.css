@@ -1,0 +1,37 @@
+.cc-navbar{
+    background-color:rgba(75, 70, 70, 0.55);
+    box-shadow: 1px 1px 1px whitesmoke;
+    z-index: 200;
+}
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/back-f.jpg') fixed no-repeat;
+    height: 600px;
+}
+.cc-navbar .nav-link{
+    border-bottom: 2px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-bottom 0.4s ease;
+}
+.cc-navbar .nav-link:hover{
+    border-bottom-color: var(--bs-cyan);
+    padding-bottom: 1px solid transparent;
+}
+.ft-row{
+    text-align: center;
+}
+.two{
+    background: url('../img/back1.jpg');
+
+}
+.card-body{
+    background-color: rgb(243, 224, 224);
+}
+
+.insc{
+    background: url('../img/insc.jpg');
+}
+.carousel-item{
+    height: 300px;
+}
+.mes-carou{
+    background: url('../img/element-5.png');
+}
